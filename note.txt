@@ -1,0 +1,89 @@
+Traceback (most recent call last):
+  File "hello.py", line 4, in <module>
+    import graphics
+  File "/root/flask/myproject/graphics.py", line 8, in <module>
+    import matplotlib
+ImportError: No module named matplotlib
+
+pip3 install matplotlib
+
+
+Traceback (most recent call last):
+  File "hello.py", line 5, in <module>
+    import request
+  File "/root/flask/myproject/request.py", line 51
+SyntaxError: Non-ASCII character '\xe5' in file /root/flask/myproject/request.py on line 52, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+nvim *.py
+	# -*- coding: UTF-8 -*-
+
+Traceback (most recent call last):
+  File "hello.py", line 8, in <module>
+    import request
+  File "/root/flask/myproject/request.py", line 4, in <module>
+    import requests
+ImportError: No module named requests
+
+pip3 install requests
+
+
+Traceback (most recent call last):
+  File "hello.py", line 8, in <module>
+    import request
+  File "/root/flask/myproject/request.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ImportError: No module named bs4
+
+pip3 install beautifulsoup4
+
+
+Traceback (most recent call last):
+  File "hello.py", line 14, in <module>
+    from sendmail import sendmail
+  File "/root/flask/py3uwsgi_nginx2/flask/sendmail/sendmail.py", line 2, in <module>
+    import yagmail
+ModuleNotFoundError: No module named 'yagmail'
+
+pip3 install yagmail
+
+
+Traceback (most recent call last):
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "hello.py", line 477, in upload_file
+    return render_template('upload.html')
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/root/flask/py3uwsgi_nginx2/venv/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+
+其实这个问题，有些网上的大佬们的解决办法无非就是新建templates文件夹，与py文件保持同一级，将html文件放进templates文件夹内等等。其实，最快速的办法就是检查下面几点：
+1、项目下面是否有templates文件夹，你的html文件是否放进了里面；
+2、templates文件夹是否和你运行的py文件在同一级目录；
+3、render_template('***.html')这里面的名字是否正确，别打错了；
+4、app = Flask(__name__, template_folder='templates', static_folder="****",static_url_path="****") 在最开始的这句话中，template_folder后面一定要跟上templates；
+
+
+Traceback (most recent call last):
+  File "hello.py", line 24, in <module>
+    from pypinyin import lazy_pinyin
+ModuleNotFoundError: No module named 'pypinyin'
+
+pip3 install pypinyin

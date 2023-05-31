@@ -1,0 +1,516 @@
+ * Serving Flask app 'hello'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9006
+ * Running on http://172.29.248.27:9006
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [30/May/2023 12:57:10] "[33mGET /cgi-bin/config.exp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 12:57:11] "[33mGET /cgi-bin/config.exp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 13:12:26] "[33mGET /remote/login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 13:32:32] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 13:36:29] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 13:36:30] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 13:40:46] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 13:45:55] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 14:25:19] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 14:25:21] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 14:33:13] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 14:56:09] "GET /isbind?code=0c3I611w3ivqJ03jSc1w3R7Lqg1I611o HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:56:13] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:56:21] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:56:29] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=0&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:57:09] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 14:57:36] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=1&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:57:58] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=1&keystuflag=1 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:58:23] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=2&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 14:58:25] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 14:58:25] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=2&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 15:03:00] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=0&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 15:04:42] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=0&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 15:16:28] "GET /isbind?code=0b3xl21w3cA6I03g214w3B9HXa4xl218 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 15:16:29] "GET /scorelist?stuname=张桂源&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41OvqObZY5BxsbyNxYpLfT4 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 15:16:35] "GET /scorelist?stuname=张桂源&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41OvqObZY5BxsbyNxYpLfT4 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 15:27:31] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:39:44] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:39:49] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:45:23] "[33mPOST /query HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:45:41] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:45:49] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:46:57] "[33mPOST /resolve HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 15:58:26] "[33mPOST / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:02:58] "GET /isbind?code=0e3D53000YwR3Q19tY2005uCBU2D530J HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:02:59] "GET /scorelist?stuname=李晓冉&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW48d75xo9LiYY15MHjevjRRU HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:06:48] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:08:56] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:15:12] "[33mGET /admin/console/index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:15:12] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:28:31] "GET /isbind?code=0a3hKC000Zfx4Q1hCw100JKdNm0hKC0L HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:28:35] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:28:42] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:31:22] "GET /isbind?code=0f1GU61w3jEcI03JWc2w32gKUa4GU61x HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:31:32] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:31:46] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:31:57] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=2&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:32:08] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1&roleanalysis=0&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:36:00] "GET /isbind?code=0e14010w3rGiJ039sg3w34eUcd44010v HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:36:07] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1 HTTP/1.0" 200 -
+keystuflag 0
+keystuflag 0
+select SumD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, SumD from CurrentScore where SumD between 1490 and 1790 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211772
+select student_name from CurrentStudent where student_id = 1235211833
+select student_name from CurrentStudent where student_id = 1235216016
+select student_name from CurrentStudent where student_id = 1235210612
+select student_name from CurrentStudent where student_id = 1235211555
+select student_name from CurrentStudent where student_id = 1235211974
+select student_name from CurrentStudent where student_id = 1235212379
+select student_name from CurrentStudent where student_id = 1235211029
+select YuwenD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, YuwenD from CurrentScore where YuwenD between 1425 and 1725 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211103
+select student_name from CurrentStudent where student_id = 1235210087
+select student_name from CurrentStudent where student_id = 1235212286
+select student_name from CurrentStudent where student_id = 1235212543
+select student_name from CurrentStudent where student_id = 1235212783
+select student_name from CurrentStudent where student_id = 1235210672
+select student_name from CurrentStudent where student_id = 1235216016
+select student_name from CurrentStudent where student_id = 1235212768
+select ShuxueD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, ShuxueD from CurrentScore where ShuxueD between 1489 and 1789 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235210087
+select student_name from CurrentStudent where student_id = 1235212543
+select student_name from CurrentStudent where student_id = 1235210612
+select student_name from CurrentStudent where student_id = 1235210983
+select student_name from CurrentStudent where student_id = 1235211555
+select student_name from CurrentStudent where student_id = 1235210395
+select student_name from CurrentStudent where student_id = 1235210829
+select student_name from CurrentStudent where student_id = 1235211284
+select WaiyuD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, WaiyuD from CurrentScore where WaiyuD between 1433 and 1733 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211539
+select student_name from CurrentStudent where student_id = 1235211772
+select student_name from CurrentStudent where student_id = 1235210672
+select student_name from CurrentStudent where student_id = 1235212325
+select student_name from CurrentStudent where student_id = 1235212768
+select student_name from CurrentStudent where student_id = 1235211951
+select student_name from CurrentStudent where student_id = 1235212313
+select Select1D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select1D from CurrentScore where Select1D between 1448 and 1748 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235216527
+select student_name from CurrentStudent where student_id = 1235211555
+select student_name from CurrentStudent where student_id = 1235210395
+select student_name from CurrentStudent where student_id = 1235212379
+select student_name from CurrentStudent where student_id = 1235212102
+select student_name from CurrentStudent where student_id = 1235212303
+select student_name from CurrentStudent where student_id = 1235216714
+select Select2D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select2D from CurrentScore where Select2D between 1455 and 1755 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211109
+select student_name from CurrentStudent where student_id = 1235211612
+select student_name from CurrentStudent where student_id = 1235212543
+select student_name from CurrentStudent where student_id = 1235211772
+select student_name from CurrentStudent where student_id = 1235211364
+select student_name from CurrentStudent where student_id = 1235211600
+select student_name from CurrentStudent where student_id = 1235211833
+select student_name from CurrentStudent where student_id = 1235212379
+select Select3D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select3D from CurrentScore where Select3D between 1423 and 1723 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235212783
+select student_name from CurrentStudent where student_id = 1235211833
+select student_name from CurrentStudent where student_id = 1235211233
+select student_name from CurrentStudent where student_id = 1235211260
+select student_name from CurrentStudent where student_id = 1235212102
+select student_name from CurrentStudent where student_id = 1235212406
+select student_name from CurrentStudent where student_id = 1235212197
+select student_name from CurrentStudent where student_id = 1235210779
+keystuflag 1
+keystuflag 0
+keystuflag 0
+keystuflag 0
+keystuflag 0
+keystuflag None
+keystuflag 0
+keystuflag 0
+select SumD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, SumD from CurrentScore where SumD between 1490 and 1790 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211772
+select student_name from CurrentStudent where student_id = 1235211833
+select student_name from CurrentStudent where student_id = 1235216016
+select student_name from CurrentStudent where student_id = 1235210612
+select student_name from CurrentStudent where student_id = 1235211555
+select student_name from CurrentStudent where student_id = 1235211974
+select student_name from CurrentStudent where student_id = 1235212379
+select student_name from CurrentStudent where student_id = 1235211029
+select YuwenD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, YuwenD from CurrentScore where YuwenD between 1425 and 1725 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211103
+select student_name from CurrentStudent where student_id = 1235210087
+select student_name from CurrentStudent where student_id = 1235212286
+select student_name from CurrentStudent where student_id = 1235212543
+select student_name from CurrentStudent where student_id = 1235212783
+select student_name from CurrentStudent where student_id = 1235210672
+select student_name from CurrentStudent where student_id = 1235216016
+select student_name from CurrentStudent where student_id = 1235212768
+select ShuxueD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, ShuxueD from CurrentScore where ShuxueD between 1489 and 1789 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235210087
+select student_name from CurrentStudent where student_id = 1235212543
+select student_name from CurrentStudent where student_id = 1235210612
+select student_name from CurrentStudent where student_id = 1235210983
+select student_name from CurrentStudent where student_id = 1235211555
+select student_name from CurrentStudent where student_id = 1235210395
+select student_name from CurrentStudent where student_id = 1235210829
+select student_name from CurrentStudent where student_id = 1235211284
+select WaiyuD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+127.0.0.1 - - [30/May/2023 16:36:19] "GET /dataanalysis?stuname=魏一佳&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1&roleanalysis=1&keystuflag=0 HTTP/1.0" 200 -
+select student_id, WaiyuD from CurrentScore where WaiyuD between 1433 and 1733 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211539
+select student_name from CurrentStudent where student_id = 1235211772
+select student_name from CurrentStudent where student_id = 1235210672
+select student_name from CurrentStudent where student_id = 1235212325
+select student_name from CurrentStudent where student_id = 1235212768
+select student_name from CurrentStudent where student_id = 1235211951
+select student_name from CurrentStudent where student_id = 1235212313
+select Select1D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select1D from CurrentScore where Select1D between 1448 and 1748 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235216527
+select student_name from CurrentStudent where student_id = 1235211555
+select student_name from CurrentStudent where student_id = 1235210395
+select student_name from CurrentStudent where student_id = 1235212379
+select student_name from CurrentStudent where student_id = 1235212102
+select student_name from CurrentStudent where student_id = 1235212303
+select student_name from CurrentStudent where student_id = 1235216714
+select Select2D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select2D from CurrentScore where Select2D between 1455 and 1755 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211109
+select student_name from CurrentStudent where student_id = 1235211612
+select student_name from CurrentStudent where student_id = 1235212543
+select student_name from CurrentStudent where student_id = 1235211772
+select student_name from CurrentStudent where student_id = 1235211364
+select student_name from CurrentStudent where student_id = 1235211600
+select student_name from CurrentStudent where student_id = 1235211833
+select student_name from CurrentStudent where student_id = 1235212379
+select Select3D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select3D from CurrentScore where Select3D between 1423 and 1723 and class = 2102 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235212783
+select student_name from CurrentStudent where student_id = 1235211833
+select student_name from CurrentStudent where student_id = 1235211233
+select student_name from CurrentStudent where student_id = 1235211260
+select student_name from CurrentStudent where student_id = 1235212102
+select student_name from CurrentStudent where student_id = 1235212406
+select student_name from CurrentStudent where student_id = 1235212197
+select student_name from CurrentStudent where student_id = 1235210779
+keystuflag 0
+select SumD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, SumD from CurrentScore where SumD between 1490 and 1790 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235212081
+select student_name from CurrentStudent where student_id = 1235212493
+select student_name from CurrentStudent where student_id = 1235210512
+select student_name from CurrentStudent where student_id = 1235210943
+select student_name from CurrentStudent where student_id = 1235212248
+select student_name from CurrentStudent where student_id = 1235211841
+select student_name from CurrentStudent where student_id = 1235210214
+select student_name from CurrentStudent where student_id = 1235210896
+select YuwenD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, YuwenD from CurrentScore where YuwenD between 1425 and 1725 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211215
+select student_name from CurrentStudent where student_id = 1235210601
+select student_name from CurrentStudent where student_id = 1235212173
+select student_name from CurrentStudent where student_id = 1235211880
+select student_name from CurrentStudent where student_id = 1235210729
+select student_name from CurrentStudent where student_id = 1235211616
+select student_name from CurrentStudent where student_id = 1235210943
+select student_name from CurrentStudent where student_id = 1235212248
+select ShuxueD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, ShuxueD from CurrentScore where ShuxueD between 1489 and 1789 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211262
+select student_name from CurrentStudent where student_id = 1235212482
+select student_name from CurrentStudent where student_id = 1235210160
+select student_name from CurrentStudent where student_id = 1235212695
+select student_name from CurrentStudent where student_id = 1235211342
+select student_name from CurrentStudent where student_id = 1235210512
+select student_name from CurrentStudent where student_id = 1235212752
+select student_name from CurrentStudent where student_id = 1235210896
+select WaiyuD from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, WaiyuD from CurrentScore where WaiyuD between 1433 and 1733 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235211309
+select student_name from CurrentStudent where student_id = 1235212081
+select student_name from CurrentStudent where student_id = 1235216394
+select student_name from CurrentStudent where student_id = 1235211616
+select student_name from CurrentStudent where student_id = 1235211649
+select student_name from CurrentStudent where student_id = 1235210404
+select student_name from CurrentStudent where student_id = 1235212037
+select student_name from CurrentStudent where student_id = 1235211934
+select Select1D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select1D from CurrentScore where Select1D between 1448 and 1748 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235212600
+select student_name from CurrentStudent where student_id = 1235210160
+select student_name from CurrentStudent where student_id = 1235216591
+select student_name from CurrentStudent where student_id = 1235211342
+select student_name from CurrentStudent where student_id = 1235211758
+select student_name from CurrentStudent where student_id = 1235212199
+select student_name from CurrentStudent where student_id = 1235211934
+select student_name from CurrentStudent where student_id = 1235210724
+select Select2D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select2D from CurrentScore where Select2D between 1455 and 1755 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235212173
+select student_name from CurrentStudent where student_id = 1235212695
+select student_name from CurrentStudent where student_id = 1235216591
+select student_name from CurrentStudent where student_id = 1235216394
+select student_name from CurrentStudent where student_id = 1235212246
+select student_name from CurrentStudent where student_id = 1235211210
+select student_name from CurrentStudent where student_id = 1235211616
+select student_name from CurrentStudent where student_id = 1235211897
+select Select3D from SchoolLINE where line = '理科一本线' and exam = '高二5.12月考' and grade = '高二'
+select student_id, Select3D from CurrentScore where Select3D between 1423 and 1723 and class = 2101 and exam = '高二5.12月考' limit 8
+select student_name from CurrentStudent where student_id = 1235212135
+127.0.0.1 - - [30/May/2023 16:36:49] "GET /dataanalysis?stuname=魏一佳&classname=2101&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1&roleanalysis=1&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:36:57] "GET /dataanalysis?stuname=魏一佳&classname=2101&gradename=高一&schoolname=淅川一高&partindex=0&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=1&roleanalysis=2&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:38:45] "GET /unbind?code=0f1Tg5000JlZ3Q1lfn200NNL8F3Tg50f&unbindcount=2 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:22] "GET /isbind?code=0e1bat100asA2Q1vvH0007KktQ3bat1D HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:39] "GET /bindinfo?code=0e1f8c100DzR2Q1Rx94007AE9q0f8c1f&schoolname=淅川一高&phone=13811111111&stuname=魏一佳&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:40] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:41] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:42] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:54] "GET /dataanalysis?stuname=魏一佳&classname=2101&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:59] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:49:59] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:50:00] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:50:08] "GET /isbind?code=0c3Z0n0001IG3Q1fWw000ZkReJ2Z0n0y HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:50:10] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:55:06] "GET /isbind?code=0b3Jg6000GbY3Q1XtL300ZSJgz0Jg60e HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:55:07] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:55:11] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:55:13] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:57:28] "GET /isbind?code=0a3OBc100e5R2Q1qmr100Mowql2OBc1Q HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:57:30] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:59:23] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:59:27] "GET /pic_data?stuname=魏一佳&classname=2101&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:59:28] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 16:59:28] "GET /scorelist?stuname=魏一佳&classname=2101&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:59:48] "GET /isbind?code=0a32vj0w3VtZI03p8h1w3YchPj12vj0B HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 16:59:51] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:01:08] "GET /scorelist?stuname=魏一佳&classname=2101&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:01:09] "GET /scorelist?stuname=魏一佳&classname=2101&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:01:12] "GET /scorelist?stuname=魏一佳&classname=2102&examname=undefined&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:02:32] "GET /scorelist?stuname=魏一佳&classname=2203&examname=高一下期中&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:02:40] "GET /scorelist?stuname=魏一佳&classname=2203&examname=高一下期中&schoolname=淅川一高&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:06:32] "GET /pic_data?stuname=魏一佳&classname=2203&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW4zZuCIUd3bZYlw_eJhe1EIs&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:09:12] "GET /isbind?code=0f3x130w3GjgJ030Sh1w3t7jG33x130f HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:09:21] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:09:32] "[33mGET /wp-content/plugins/mstore-api/assets/js/mstore-inspireui.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:10:40] "GET /isbind?code=0f3AjF000rPu4Q1mtc000Ibf8o3AjF0n HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:10:42] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:13:49] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:24:46] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:25:25] "GET /isbind?code=0d3VygGa1tOSoF0i4DHa1Pn2dR2VygGP HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:25:54] "GET /isbind?code=0f3ccp000EbE3Q1xDi000CRJrx1ccp0S HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:25:57] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:26:08] "GET /isbind?code=0c3dsM100g9n3Q1bX0400pUJC11dsM1B HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:26:23] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:26:27] "GET /isbind?code=0a3ihG000glt4Q1SSW300osakw1ihG0w HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:26:29] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:29:54] "GET /isbind?code=0c3sGM1003bn3Q19tw300m11Nw2sGM1u HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:29:56] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:30:16] "GET /isbind?code=0b3jva1w34p8I03jtA0w3puasC2jva1U HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:30:18] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:57] "[33mGET //2020/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 17:54:58] "[33mGET //sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 18:01:47] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 18:15:26] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 18:35:23] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 18:39:19] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 19:33:05] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 19:34:41] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 20:21:08] "GET /isbind?code=0a3ESz000GTw4Q1olr100zHlxG1ESz0B HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:21:15] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:22:35] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:22:36] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:22:57] "GET /isbind?code=0d35WM0w3exzJ03ttXZv3YO4NS35WM0M HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:22:59] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:25:21] "GET /isbind?code=0c3geC1w33jKI03wkH0w35gaFJ3geC1O HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:25:23] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:33:32] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 20:35:43] "GET /isbind?code=0e3gCf0w3zaYI036nXZv3L9hYf0gCf0D HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:35:45] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:38:24] "GET /isbind?code=0b35ef200zf86Q1N7D2004Ei5V35ef2Y HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:38:26] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:45:01] "GET /isbind?code=0d3p8ZZv3yVgJ03hV31w32N3pl2p8ZZi HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:45:03] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:47:00] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 20:47:01] "GET /isbind?code=0c32mx0w3d5NJ03nwG1w3HaR6N32mx0h HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:47:01] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 20:47:03] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:47:06] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:47:07] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:59:31] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:59:34] "GET /isbind?code=0b3vd61w3EC9I03gGb4w3WfOOF2vd61j HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:59:35] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:59:37] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 20:59:46] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:00:03] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:00:22] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:00:43] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:01:03] "GET /isbind?code=0c3ypa100mcQ2Q192O300jHlIV2ypa1X HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:01:17] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:01:18] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:01:19] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 21:15:17] "[33mHEAD / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 21:27:18] "[33mGET /ab2g HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 21:27:19] "[33mGET /ab2h HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 21:27:25] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 21:27:27] "[33mGET /t4 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 21:27:30] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 21:36:35] "[33mGET /Sl0wuatJ6yODQNRnogedm1r3q86 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 22:01:49] "[33mGET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 22:06:58] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 22:16:40] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 22:19:53] "GET /isbind?code=0d3a7b1w3RwlI03OqE0w3VK3134a7b1k HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:20:54] "GET /isbind?code=0b3peY000BdS3Q121A000gyQc61peY0Z HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:21:55] "GET /isbind?code=0f3K8D0w30AUI03jMg2w3NDEJB3K8D0Y HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:21:56] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:22:00] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:22:39] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:23:01] "GET /isbind?code=0d3jd90008a94Q1Nr80004iLiQ0jd90z HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:23:22] "GET /isbind?code=0e3HkH000v3B3Q1d3Y000WA3W31HkH0B HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:24:32] "GET /isbind?code=0c3zc50w3MssJ03oNq3w32iKNI1zc50P HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:24:33] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:24:35] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:24:37] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:27:29] "GET /isbind?code=0f3dxq000X0q4Q187O300GqnYf0dxq08 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:27:30] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:27:31] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:27:33] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:28:25] "GET /isbind?code=0a3KDH0004IA3Q1pG7100Vemzy1KDH08 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:28:26] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 22:46:28] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 22:46:28] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 23:09:59] "GET /isbind?code=0d3VaK000cFC3Q1kUR000yHalI0VaK0X HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 23:10:00] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 23:10:01] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [30/May/2023 23:20:13] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 23:20:15] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 23:30:54] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 23:33:11] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0[0m" 404 -
+127.0.0.1 - - [30/May/2023 23:35:29] "[33mGET /owa/auth/x.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 00:15:07] "[33mGET /client/user/reserves HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 01:21:35] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 02:39:11] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 02:42:43] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 02:45:53] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 03:17:40] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 03:27:27] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 03:46:44] "[33mGET /wp-content/plugins/mstore-api/assets/js/mstore-inspireui.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 03:53:06] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 03:54:04] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 03:55:30] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 04:17:27] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 04:44:33] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 04:46:33] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 05:01:39] "GET /isbind?code=0e3atg000aC94Q19C8200yMwiB2atg0P HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 05:01:41] "GET /scorelist?stuname=侯冬霞&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zLvGKwxisMAOyYDc4BPyDY HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 05:13:06] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 05:39:12] "[33mGET /uYSqfdyJ8CrNtnRUb4FDkOAcWZJ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 06:25:35] "GET /isbind?code=0a3YPnFa1DXJoF0T4rFa1tiaHJ3YPnFG HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 06:25:37] "GET /scorelist?stuname=侯冬霞&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW4zLvGKwxisMAOyYDc4BPyDY HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 06:26:07] "GET /scorelist?stuname=侯冬霞&classname=2207&examname=高一下期中&schoolname=淅川一高&userid=owLMW4zLvGKwxisMAOyYDc4BPyDY HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 06:26:52] "GET /pic_data?stuname=侯冬霞&classname=2207&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW4zLvGKwxisMAOyYDc4BPyDY HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 06:32:31] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 06:52:46] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 06:58:39] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 07:06:27] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 07:12:28] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 07:23:59] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 07:53:24] "GET /isbind?code=0e3zbO100Can2Q1DH2200yCgnA0zbO1A HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 07:53:25] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 07:53:34] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 07:53:40] "GET /dataanalysis?stuname=魏一佳&classname=2102&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 08:03:05] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 08:30:45] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 10:06:18] "GET /isbind?code=0a3mWu0w3Z1WI03zs32w3EPhxh1mWu0h HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 10:06:18] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 10:06:23] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 10:21:29] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 10:43:50] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 10:54:56] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 10:54:56] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+ * Serving Flask app 'hello'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9006
+ * Running on http://172.29.248.27:9006
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [31/May/2023 11:25:03] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 11:37:32] "[33mGET / HTTP/1.0[0m" 404 -
+ * Serving Flask app 'hello'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9006
+ * Running on http://172.29.248.27:9006
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [31/May/2023 16:35:24] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 16:38:48] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 16:47:32] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:25:25] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:25:26] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:30:05] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:39:54] "[33mGET /dns-query?name=dnsscan.shadowserver.org&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:40:45] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:44:54] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 17:47:22] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:03:11] "GET /isbind?code=0d3daN1w3dlaI03qxk3w3k4t8A2daN1d HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:06:24] "GET /dataanalysis?stuname=贾欣&classname=2102&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1&roleanalysis=0&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:06:33] "GET /scorelist?stuname=贾欣&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:06:35] "GET /scorelist?stuname=贾欣&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:18:59] "[33mGET /agent/timeclock.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:19:01] "[33mGET /agc/timeclock.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:24:21] "GET /isbind?code=0e39jZ0w3op1J03mM11w309B8o39jZ0f HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:24:22] "GET /scorelist?stuname=贾欣&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:25:46] "GET /isbind?code=0b3uoZ0w3Ds1J03kiV3w3nIED11uoZ0T HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:27:11] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:27:46] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:29:28] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:29:29] "GET /scorelist?stuname=魏一佳&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW41X2VZPbsqROQ9aJqYk5uJc&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:31:16] "GET /scorelist?stuname=&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:34:18] "GET /pic_data?stuname=&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:34:23] "GET /pic_data?stuname=魏一佳&classname=2102&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:37:06] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [31/May/2023 18:42:36] "GET /scorelist?stuname=魏一佳&classname=2201&examname=undefined&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:42:39] "GET /scorelist?stuname=魏一佳&classname=2201&examname=月考A&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:42:40] "GET /scorelist?stuname=魏一佳&classname=2201&examname=月考A&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:42:46] "GET /scorelist?stuname=魏一佳&classname=2201&examname=月考A&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:42:49] "GET /scorelist?stuname=魏一佳&classname=2202&examname=月考A&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:43:15] "GET /scorelist?stuname=魏一佳&classname=2102&examname=月考B&schoolname=淅川一高&userid=owLMW47DdWyBoJmT-VwGRSIqkpmk&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:44:34] "GET /isbind?code=0c32E4100IoF3Q1AS8200vStJB32E41p HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:44:39] "GET /isbind?code=0d3pKC100sj73Q1jVp100Kzso42pKC1q HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:55:00] "GET /isbind?code=0f3W4t0w3NkxJ0371C3w3L8dEM2W4t0f HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:57:49] "GET /isbind?code=0d1Kx72w3gwTH03Uo91w3ThqOq4Kx72a HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:58:06] "GET /scorelist?stuname=韦煜川&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:58:28] "GET /scorelist?stuname=杨雨欣&classname=2102&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:58:39] "GET /scorelist?stuname=杨雨欣&classname=2140&examname=高二5.12月考&schoolname=淅川一高&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:58:44] "GET /pic_data?stuname=杨雨欣&classname=2140&partname=全部&schoolname=淅川一高&radioflag=1&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:58:58] "GET /dataanalysis?stuname=杨雨欣&classname=2140&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1&roleanalysis=0&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:59:07] "GET /dataanalysis?stuname=杨雨欣&classname=2140&gradename=请选择&schoolname=淅川一高&partindex=0&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1&roleanalysis=1&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 18:59:49] "GET /dataanalysis?stuname=杨雨欣&classname=2140&gradename=高二&schoolname=淅川一高&partindex=0&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1&roleanalysis=2&keystuflag=0 HTTP/1.0" 200 -
+127.0.0.1 - - [31/May/2023 19:00:04] "GET /dataanalysis?stuname=杨雨欣&classname=2140&gradename=高二&schoolname=淅川一高&partindex=0&userid=owLMW48xDlSg35lghrQz8EqTDBXQ&role=1&roleanalysis=2&keystuflag=0 HTTP/1.0" 200 -

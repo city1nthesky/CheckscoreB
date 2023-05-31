@@ -1,0 +1,93 @@
+Flask是支持文件上传的,  近来做了一个上传SQL文件的功能, SQL中会使用到中文, 泰文, 马来西亚文等多种语言, 
+
+我们通过Flask接收到文件, 先把文件保存在后端, 保存后却发现是乱码.
+
+from flask import request
+
+from werkzeug.utils import secure_filename
+
+@app.route('/upload', methods=['GET', 'POST'])
+
+def upload_file():
+
+    if request.method == 'POST':
+
+        f = request.files['the_file']
+
+        f.save('/var/www/uploads/' + secure_filename(f.filename))
+
+    ...
+
+通过上面一段代码接收并保存中文文件会乱码的.
+
+如何解决呢?
+
+首先考虑乱码是如何产生的呢, 两种不同的编码方式导致的.
+
+通过Python的chardet模块的detect方法可以获取到字符串的编码方式
+
+file = request.files.get('file')
+
+sql_content = file.read()
+
+encoding = chardet.detect(sql_content)['encoding']
+
+我的项目中获取的编码方式是GB2312编码
+
+解决编码错乱的问题就是先正确解码, 再重新编码, 本项目中是先用GB2312解码, 然后用UTF-8编码. 如下:
+
+sql_content = sql_content.decode('GB2312').encode('utf-8')
+
+上面重新编码后的sql_content的再重新写入文件对象, 然后保存就解决了中文乱码的问题.
+
+file.truncate()
+
+file.seek(0)
+
+file.write(sql_content)
+
+file.save('test.sql')
+
+后台之间保存文件的乱码问题解决后, 我们通过MINIO的SDK上传的乱码问题也迎刃而解.
+
+代码全览:
+
+# 文件上传接口
+
+class DBTaskSQLFile(Resource):
+
+    # 新建文件
+
+    def post(self):
+
+        file = request.files.get('file')
+
+        file.seek(0)
+
+        sql_content = file.read()
+
+        encoding = chardet.detect(sql_content)['encoding']
+
+        sql_content = sql_content.decode(encoding).encode('utf-8')
+
+        file.truncate()
+
+        file.seek(0)
+
+        file.write(sql_content)
+
+        file.seek(0)
+
+        # SQL文件上传至文件服务器
+
+        try:
+
+            pass
+
+        except Exception as err:
+
+            print('[MINIO]:', err)
+
+            return jsonify(code=1, msg='SQL文件上传至文件服务器时失败')
+
+        return jsonify(code=0, msg='Success')
